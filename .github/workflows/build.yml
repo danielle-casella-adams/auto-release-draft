@@ -1,5 +1,5 @@
 name: Build
-on: 
+on:
   push:
     branches:
       - main
@@ -16,4 +16,4 @@ jobs:
       - name: Restore the dependencies
         run: npm ci
       - name: Build
-        run: npm run all   
+        run: npm run all
